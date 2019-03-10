@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Renkler">
+
+    <Button
+        android:id="@+id/geri3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_media_previous"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.021"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.698" />
+
+    <Button
+        android:id="@+id/ileri3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_media_next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.698" />
+
+    <ViewFlipper
+        android:id="@+id/ViewFlipper3"
+        android:layout_width="match_parent"
+        android:layout_height="665dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/ImageV1"
+            android:layout_width="match_parent"
+            android:layout_height="355dp"
+            android:background="@drawable/sari"
+            android:contentDescription="@string/ari" />
+
+        <ImageView
+            android:id="@+id/ImageV2"
+            android:layout_width="match_parent"
+            android:layout_height="355dp"
+            android:background="@drawable/yesil"
+            android:contentDescription="@string/ari" />
+
+        <ImageView
+            android:id="@+id/ImageV3"
+            android:layout_width="match_parent"
+            android:layout_height="355dp"
+            android:background="@drawable/kirmizi"
+            android:contentDescription="@string/ari" />
+
+        <ImageView
+            android:id="@+id/ImageV4"
+            android:layout_width="match_parent"
+            android:layout_height="355dp"
+            android:background="@drawable/mavi"
+            android:contentDescription="@string/ari" />
+
+    </ViewFlipper>
+</android.support.constraint.ConstraintLayout>

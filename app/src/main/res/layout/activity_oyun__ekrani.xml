@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Oyun_Ekrani">
+
+    <ViewFlipper
+        android:id="@+id/ViewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="598dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/ImageView1"
+            android:layout_width="match_parent"
+            android:layout_height="355dp"
+            android:background="@drawable/ari"
+            android:contentDescription="@string/ari" />
+
+        <ImageView
+            android:id="@+id/ImageView2"
+            android:layout_width="match_parent"
+            android:layout_height="325dp"
+            android:background="@drawable/aslan"
+            android:contentDescription="@string/aslan" />
+
+        <ImageView
+            android:id="@+id/ImageView3"
+            android:layout_width="match_parent"
+            android:layout_height="325dp"
+            android:background="@drawable/at"
+            android:contentDescription="@string/at" />
+
+        <ImageView
+            android:id="@+id/ImageView4"
+            android:layout_width="match_parent"
+            android:layout_height="325dp"
+            android:background="@drawable/fil"
+            android:contentDescription="@string/fil" />
+
+        <ImageView
+            android:id="@+id/ImageView5"
+            android:layout_width="match_parent"
+            android:layout_height="325dp"
+            android:background="@drawable/inek"
+            android:contentDescription="@string/inek" />
+
+        <ImageView
+            android:id="@+id/ImageView6"
+            android:layout_width="match_parent"
+            android:layout_height="325dp"
+            android:background="@drawable/karga"
+            android:contentDescription="@string/karga" />
+
+        <ImageView
+            android:id="@+id/ImageView7"
+            android:layout_width="match_parent"
+            android:layout_height="325dp"
+            android:background="@drawable/kedi"
+            android:contentDescription="@string/kedi" />
+
+        <ImageView
+            android:id="@+id/ImageView8"
+            android:layout_width="match_parent"
+            android:layout_height="325dp"
+            android:background="@drawable/kurt"
+            android:contentDescription="@string/kurt" />
+
+        <ImageView
+            android:id="@+id/ImageView9"
+            android:layout_width="match_parent"
+            android:layout_height="325dp"
+            android:background="@drawable/ordek"
+            android:contentDescription="@string/ordek" />
+
+        <ImageView
+            android:id="@+id/ImageView10"
+            android:layout_width="match_parent"
+            android:layout_height="325dp"
+            android:background="@drawable/penguen"
+            android:contentDescription="@string/penguen" />
+
+        <ImageView
+            android:id="@+id/ImageView11"
+            android:layout_width="match_parent"
+            android:layout_height="325dp"
+            android:background="@drawable/tavuk"
+            android:contentDescription="@string/tavuk" />
+
+        <ImageView
+            android:id="@+id/ImageView12"
+            android:layout_width="match_parent"
+            android:layout_height="325dp"
+            android:background="@drawable/zurafa"
+            android:contentDescription="@string/zurafa" />
+
+    </ViewFlipper>
+
+    <Button
+        android:id="@+id/ileri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_media_next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.746" />
+
+    <Button
+        android:id="@+id/geri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_media_previous"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.746" />
+
+</android.support.constraint.ConstraintLayout>

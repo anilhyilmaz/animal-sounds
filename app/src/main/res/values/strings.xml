@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="ari">ari</string>
+    <string name="aslan">aslan</string>
+    <string name="at">at</string>
+    <string name="fil">fil</string>
+    <string name="horoz">horoz</string>
+    <string name="inek">inek</string>
+    <string name="karga">karga</string>
+    <string name="kedi">kedi</string>
+    <string name="kurt">kurt</string>
+    <string name="ordek">ordek</string>
+    <string name="penguen">penguen</string>
+    <string name="tavuk">tavuk</string>
+    <string name="yilan">yilan</string>
+    <string name="zurafa">zurafa</string>
+    <string name="text">Sesleri Dinlemek için Resimlere Tıklamayı Unutmayınız.</string>
+    <string name="hayvan_sesleri">HAYVAN SESLERİ</string>
+    <string name="Renkler">RENKLER</string>
+    <string name="Şekiller">ŞEKİLLER</string>
+    <string name="SINAV">SINAV</string>
+
+</resources>
